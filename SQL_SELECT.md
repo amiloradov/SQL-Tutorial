@@ -10,11 +10,11 @@ SELECT * FROM  table_name;
 
 ## Примеры
 
-Выбирать столбцы «CustomerName» и «City» из таблицы «Customers»:
+Выбрать столбцы «CustomerName» и «City» из таблицы «Customers»:
 ``` SQL
 SELECT CustomerName, City FROM Customers;
 ```
 
-Выбирать все столбцы из таблицы  «Customers»:
+Выбрать все столбцы из таблицы  «Customers»:
 ``` SQL
 SELECT * FROM Customers;
