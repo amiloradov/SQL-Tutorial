@@ -9,4 +9,4 @@ JOIN используется для объединения строк из дв
 -   **RIGHT (OUTER) JOIN** : возвращает все записи из правой таблицы и соответствующие записи из левой таблицы
 -   **FULL (OUTER) JOIN** : Возвращает все записи, когда есть совпадение в левой или правой таблице
 
-![INNER JOIN](/images/img_innerjoin.gif)![LEFT JOIN](/images/img_leftjoin.gif) ![RIGHT JOIN](/images/img_rightjoin.gif) ![FULL OUTER JOIN](/images/img_fulljoin.gif)
+![INNER JOIN](/Images/img_innerjoin.gif)![LEFT JOIN](/Images/img_leftjoin.gif) ![RIGHT JOIN](/Images/img_rightjoin.gif) ![FULL OUTER JOIN](/Images/img_fulljoin.gif)

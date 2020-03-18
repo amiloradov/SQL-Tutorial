@@ -20,6 +20,25 @@ SELECT column_name AS alias_name FROM table_name;
 SELECT column_name(s) FROM table_name AS alias_name;
 ```
 
+### Таблица "Customers"
+
+| CustomerID | CustomerName | ContactName | Address | City | PostalCode | Country |
+|--|--|--|--|--|--|--|
+| 1 | Alfreds Futterkiste | Maria Anders | Obere Str. 57 | Berlin | 12209 | Germany |
+| 2 | Ana Trujillo Emparedados y helados | Ana Trujillo | Avda. de la Constitución 2222 | México D.F. | 05021 | Mexico |
+| 3 | Antonio Moreno Taquería | Antonio Moreno | Mataderos 2312 | México D.F. | 05023 | Mexico |
+| 4 | Around the Horn | Thomas Hardy | 120 Hanover Sq. | London | WA1 1DP | UK |
+| 5 | Berglunds snabbköp | Christina Berglund | Berguvsvägen 8 | Luleå | S-958 22 | Sweden |
+---
+
+### Таблица "Orders"
+
+| OrderID | CustomerID | EmployeeID | OrderDate | ShipperID |
+|--|--|--|--|--|
+| 10308 | 2 | 7 | 1996-09-18 | 3 |
+| 10309 | 37 | 3 | 1996-09-19 | 1 |
+| 10310 | 77 | 8 | 1996-09-20 | 2 |
+
 ## Примеры
 
 Создать два псевдонима, один для столбца CustomerID и один для столбца CustomerName:

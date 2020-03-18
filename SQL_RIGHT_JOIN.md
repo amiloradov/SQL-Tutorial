@@ -5,7 +5,7 @@ RIGHT JOIN возвращает все записи из правой табли
 > **Примечание**. В некоторых базах данных RIGHT JOIN называется RIGHT OUTER JOIN.
 > 
 
-![RIGHT JOIN](/images/img_rightjoin.gif)
+![RIGHT JOIN](/Images/img_rightjoin.gif)
 
 ## RIGHT JOIN Синтаксис
 
@@ -15,6 +15,22 @@ FROM table1
 LEFT JOIN table2
 ON table1.column_name = table2.column_name;
 ```
+
+### Таблица "Orders"
+
+| OrderID | CustomerID | EmployeeID | OrderDate | ShipperID |
+|--|--|--|--|--|
+| 10308 | 2 | 7 | 1996-09-18 | 3 |
+| 10309 | 37 | 3 | 1996-09-19 | 1 |
+| 10310 | 77 | 8 | 1996-09-20 | 2 |
+---
+
+### Таблица "Employees"
+| EmployeeID | LastName | FirstName | BirthDate | Photo |
+|--|--|--|--|--|
+| 1 | Davolio | Nancy | 12/8/1968 | EmpID1.pic |
+| 2 | Fuller | Andrew | 2/19/1952 | EmpID2.pic |
+| 3 | Leverling | Janet | 8/30/1963 | EmpID3.pic |
 
 ## Примеры
 
