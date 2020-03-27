@@ -70,3 +70,8 @@ SELECT * FROM Customers WHERE CustomerName LIKE 'a%o';
 ``` SQL
 SELECT * FROM Customers WHERE CustomerName NOT LIKE 'a%';
 ```
+
+---
+
+[НАЗАД](/SQL_Tutorial/SQL_COUNT_AVG_SUM.md)  | [ВПЕРЁД](/SQL_Tutorial/SQL_Wildcard.md)
+

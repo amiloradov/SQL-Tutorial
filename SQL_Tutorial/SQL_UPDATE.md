@@ -19,3 +19,9 @@ UPDATE Customers SET ContactName = 'Pasha', City= 'Gomel' WHERE CustomerID = 1;
 Изменить имя контакта на «Ololo» для всех записей, где страна - «Ukraine»:
 ``` SQL
 UPDATE Customers SET ContactName='Ololo' WHERE Country='Ukraine';
+```
+
+---
+
+[НАЗАД](/SQL_Tutorial/SQL_NULL.md)  | [ВПЕРЁД](/SQL_Tutorial/SQL_DELETE.md)
+

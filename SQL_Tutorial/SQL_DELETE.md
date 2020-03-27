@@ -19,3 +19,9 @@ DELETE FROM Customers WHERE CustomerName='Grisha';
 Удалить все строки в таблице "Customers", не удаляя таблицу.
 ``` SQL
 DELETE FROM Customers;
+```
+
+---
+
+[НАЗАД](/SQL_Tutorial/SQL_UPDATE.md)  | [ВПЕРЁД](/SQL_Tutorial/SQL_TOP_LIMIT_ROWNUM.md)
+

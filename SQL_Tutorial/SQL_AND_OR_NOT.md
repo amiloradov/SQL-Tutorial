@@ -42,3 +42,9 @@ SELECT * FROM Customers WHERE Country='Belarus'  AND (City='Minsk' OR City='Mogi
 Выбрать всех клиентов из таблицы «Customers», где страна не «Belarus» и не «Russia»:
 ``` SQL
 SELECT * FROM Customers WHERE NOT Country='Belarus' AND NOT Country='Russia';
+```
+
+---
+
+[НАЗАД](/SQL_Tutorial/SQL_WHERE.md)  | [ВПЕРЁД](/SQL_Tutorial/SQL_ORDER_BY.md)
+

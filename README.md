@@ -50,7 +50,7 @@
 | [BACKUP DATABASE](/SQL_DATABASE/SQL_BACKUP_DATABASE.md) | BACKUP DATABASE используется в SQL Server для создания полной резервной копии существующей базы данных SQL. |
 | [CREATE TABLE](/SQL_DATABASE/SQL_CREATE_TABLE.md) | Оператор CREATE TABLE используется для создания новой таблицы в базе данных. |
 | [DROP TABLE, TRUNCATE TABLE](/SQL_DATABASE/SQL_DROP_TABLE.md) | Оператор DROP TABLE используется для удаления существующей таблицы в базе данных. Оператор TRUNCATE TABLE используется для удаления данных внутри таблицы, но не самой таблицы. |
-| [ALTER TABLE](/SQL_DATABASE/SQL_DROP_TABLE.md) | ALTER TABLE используется для добавления, удаления или изменения столбцов в существующей таблице, а также используется для добавления и удаления различных ограничений в существующей таблицы. |
+| [ALTER TABLE](/SQL_DATABASE/SQL_ALTER_TABLE.md) | ALTER TABLE используется для добавления, удаления или изменения столбцов в существующей таблице, а также используется для добавления и удаления различных ограничений в существующей таблицы. |
 | [Constraints (Ограничения)](/SQL_DATABASE/SQL_Constraints.md) | Ограничения SQL используются для указания правил для данных в таблице. |
 | [Ограничение NOT NULL](/SQL_DATABASE/SQL_NOT_NULL.md) | Ограничение NOT NULL заставляет столбец НЕ принимать значения NULL. |
 | [Ограничение UNIQUE](/SQL_DATABASE/SQL_UNIQUE.md) | Ограничение UNIQUE гарантирует, что все значения в столбце различны. |

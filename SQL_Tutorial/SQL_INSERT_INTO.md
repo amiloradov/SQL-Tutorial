@@ -19,3 +19,9 @@ INSERT  INTO  table_name VALUES (value1, value2, value3, ...);
 ``` SQL
 INSERT  INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Country)
 VALUES ('Misha', 'MishaMisha', 'Pushkina 21', 'Minsk', '220645', 'Belarus');
+```
+
+---
+
+[НАЗАД](/SQL_Tutorial/SQL_ORDER_BY.md)  | [ВПЕРЁД](/SQL_Tutorial/SQL_NULL.md)
+

@@ -72,5 +72,5 @@ DROP INDEX index_name;
 ```
 ---
 
-[НАЗАД](/SQL_DATABASE/SQL_DEFAULT.md)  | [ВПЕРЁД](#)
+[НАЗАД](/SQL_DATABASE/SQL_DEFAULT.md)  | [ВПЕРЁД](/SQL_DATABASE/SQL_AUTO_INCREMENT.md)
 

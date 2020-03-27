@@ -39,14 +39,20 @@ WHERE EXISTS
 EXISTS возвращает TRUE и перечисляет поставщиков из таблицы "Suppliers" с ценой продукта (из таблицы "Products") ниже 20:
 ``` SQL
 SELECT SupplierName
-FROM Suppliers  
+FROM Suppliers
 WHERE EXISTS (SELECT ProductName FROM Products  WHERE Products.SupplierID = Suppliers.SupplierID AND Price < 20);
 ```
 ---
 
 EXISTS возвращает TRUE и перечисляет поставщиков из таблицы "Suppliers" с ценой продукта (из таблицы "Products") равной 22:
+
 ``` SQL
 SELECT SupplierName
-FROM Suppliers  
+FROM Suppliers
 WHERE EXISTS (SELECT ProductName FROM Products  WHERE Products.SupplierID = Suppliers.SupplierID AND Price = 22);
 ```
+
+---
+
+[НАЗАД](/SQL_Tutorial/SQL_HAVING.md)  | [ВПЕРЁД](/SQL_Tutorial/SQL_SELECT_INTO.md)
+

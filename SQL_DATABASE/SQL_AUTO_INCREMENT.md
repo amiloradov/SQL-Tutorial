@@ -118,5 +118,5 @@ VALUES (seq_person.nextval,'Lars','Monsen');
 
 ---
 
-[НАЗАД](/SQL_DATABASE/SQL_CREATE_INDEX.md)  | [ВПЕРЁД](#)
+[НАЗАД](/SQL_DATABASE/SQL_CREATE_INDEX.md)  | [ВПЕРЁД](/SQL_DATABASE/SQL_DATE.md)
 

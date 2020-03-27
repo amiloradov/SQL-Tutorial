@@ -10,3 +10,8 @@ JOIN используется для объединения строк из дв
 -   **FULL (OUTER) JOIN** : Возвращает все записи, когда есть совпадение в левой или правой таблице
 
 ![INNER JOIN](/Images/img_innerjoin.gif)![LEFT JOIN](/Images/img_leftjoin.gif) ![RIGHT JOIN](/Images/img_rightjoin.gif) ![FULL OUTER JOIN](/Images/img_fulljoin.gif)
+
+---
+
+[НАЗАД](/SQL_Tutorial/SQL_Aliases.md)  | [ВПЕРЁД](/SQL_Tutorial/SQL_INNER_JOIN.md)
+

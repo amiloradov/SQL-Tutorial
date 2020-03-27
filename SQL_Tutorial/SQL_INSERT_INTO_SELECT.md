@@ -49,21 +49,26 @@ WHERE condition;
 
 Копировать «Suppliers» в «Customers» (столбцы, которые не заполнены данными, будут содержать NULL):
 ``` SQL
-INSERT INTO Customers (CustomerName, City, Country)  
+INSERT INTO Customers (CustomerName, City, Country)
 SELECT SupplierName, City, Country FROM Suppliers;
 ```
 ---
 
 Копировать «Suppliers» в «Customers» (заполнить все столбцы):
 ``` SQL
-INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Country)  
+INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Country)
 SELECT SupplierName, ContactName, Address, City, PostalCode, Country FROM Suppliers;
 ```
 ---
 
 Копировать только «немецких поставщиков» в «Customers»:
 ``` SQL
-INSERT INTO Customers (CustomerName,  City, Country)  
-SELECT SupplierName, City, Country FROM Suppliers  
+INSERT INTO Customers (CustomerName,  City, Country)
+SELECT SupplierName, City, Country FROM Suppliers
 WHERE Country='Germany';
 ```
+
+---
+
+[НАЗАД](/SQL_Tutorial/SQL_SELECT_INTO.md)  | [ВПЕРЁД](/SQL_Tutorial/SQL_CASE.md)
+

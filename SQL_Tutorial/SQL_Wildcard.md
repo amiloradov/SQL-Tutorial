@@ -77,3 +77,8 @@ SELECT * FROM Customers WHERE CustomerName LIKE '[!bsp]%';
 ``` SQL
 SELECT * FROM Customers WHERE CustomerName not LIKE '[bsp]%';
 ```
+
+---
+
+[НАЗАД](/SQL_Tutorial/SQL_LIKE.md)  | [ВПЕРЁД](/SQL_Tutorial/SQL_IN.md)
+

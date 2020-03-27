@@ -82,5 +82,5 @@ ALTER City DROP DEFAULT;
 ```
 ---
 
-[НАЗАД](/SQL_DATABASE/SQL_CHECK.md)  | [ВПЕРЁД](#)
+[НАЗАД](/SQL_DATABASE/SQL_CHECK.md)  | [ВПЕРЁД](/SQL_DATABASE/SQL_CREATE_INDEX.md)
 

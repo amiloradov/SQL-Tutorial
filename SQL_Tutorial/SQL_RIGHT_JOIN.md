@@ -43,3 +43,8 @@ ORDER  BY Orders.OrderID;
 ```
 
 > Примечание. RIGHT JOIN возвращает все записи из правой таблицы (Сотрудники), даже если в левой таблице (Заказы) нет совпадений.
+
+---
+
+[НАЗАД](/SQL_Tutorial/SQL_LEFT_JOIN.md)  | [ВПЕРЁД](/SQL_Tutorial/SQL_FULL_JOIN.md)
+

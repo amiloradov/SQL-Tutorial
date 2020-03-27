@@ -18,5 +18,5 @@ DROP DATABASE databasename;
 
 ---
 
-[НАЗАД](/SQL_DATABASE/SQL_CREATE_DATABASE.md)  | [ВПЕРЁД](#)
+[НАЗАД](/SQL_DATABASE/SQL_CREATE_DATABASE.md)  | [ВПЕРЁД](/SQL_DATABASE/SQL_BACKUP_DATABASE.md)
 

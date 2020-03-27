@@ -29,39 +29,43 @@ ORDER BY column_name(s);
 Перечислить количество клиентов в каждой стране. Включите только страны с более чем 5 клиентами:
 ``` SQL
 SELECT COUNT(CustomerID), Country
-FROM Customers  
-GROUP BY Country  
+FROM Customers
+GROUP BY Country
 HAVING COUNT(CustomerID) > 5;
 ```
 ---
 
 Перечислить количество клиентов в каждой стране, отсортированное по убыванию (только страны с более чем 5 клиентами):
 ``` SQL
-SELECT COUNT(CustomerID), Country  
-FROM Customers  
-GROUP BY Country  
-HAVING COUNT(CustomerID) > 5  
+SELECT COUNT(CustomerID), Country
+FROM Customers
+GROUP BY Country
+HAVING COUNT(CustomerID) > 5
 ORDER BY COUNT(CustomerID) DESC;
 ```
 ---
 
 Перечислить сотрудников из таблицы "Employees", которые зарегистрировали более 10 заказов из таблицы "Orders":
 ``` SQL
-SELECT Employees.LastName, COUNT(Orders.OrderID) AS NumberOfOrders  
-FROM (Orders  
-INNER JOIN Employees ON Orders.EmployeeID = Employees.EmployeeID)  
-GROUP BY LastName  
+SELECT Employees.LastName, COUNT(Orders.OrderID) AS NumberOfOrders
+FROM (Orders
+INNER JOIN Employees ON Orders.EmployeeID = Employees.EmployeeID)
+GROUP BY LastName
 HAVING COUNT(Orders.OrderID) > 10;
 ```
 ---
 
 Указывает, зарегистрировали ли сотрудники «Davolio» или «Fuller» более 25 заказов:
 ``` SQL
-SELECT Employees.LastName, COUNT(Orders.OrderID) AS NumberOfOrders  
-FROM Orders  
-INNER JOIN Employees ON Orders.EmployeeID = Employees.EmployeeID  
-WHERE LastName = 'Davolio' OR LastName = 'Fuller'  
-GROUP BY LastName  
+SELECT Employees.LastName, COUNT(Orders.OrderID) AS NumberOfOrders
+FROM Orders
+INNER JOIN Employees ON Orders.EmployeeID = Employees.EmployeeID
+WHERE LastName = 'Davolio' OR LastName = 'Fuller'
+GROUP BY LastName
 HAVING COUNT(Orders.OrderID) > 25;
 ```
+
+---
+
+[НАЗАД](/SQL_Tutorial/SQL_GROUP_BY.md)  | [ВПЕРЁД](/SQL_Tutorial/SQL_EXISTS.md)
 

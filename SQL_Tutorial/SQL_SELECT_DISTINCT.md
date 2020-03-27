@@ -22,3 +22,8 @@ SELECT COUNT(DISTINCT Country) * FROM Customers;
 >``` SQL
 >SELECT  Count(*) AS DistinctCountries FROM (SELECT  DISTINCT Country FROM Customers);
 >```
+
+---
+
+[НАЗАД](/SQL_Tutorial/SQL_SELECT.md)  | [ВПЕРЁД](/SQL_Tutorial/SQL_WHERE.md)
+

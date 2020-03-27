@@ -28,3 +28,8 @@ SELECT * FROM Customers ORDER  BY Country, CustomerName;
 ``` SQL
 SELECT * FROM Customers ORDER  BY Country ASC, CustomerName DESC;
 ```
+
+---
+
+[НАЗАД](/SQL_Tutorial/SQL_AND_OR_NOT.md)  | [ВПЕРЁД](/SQL_Tutorial/SQL_INSERT_INTO.md)
+

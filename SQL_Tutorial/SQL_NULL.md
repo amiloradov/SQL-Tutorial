@@ -25,3 +25,8 @@ SELECT CustomerName, ContactName, Address FROM Customers WHERE Address IS NULL;
 ``` SQL
 SELECT CustomerName, ContactName, Address FROM Customers WHERE Address IS NOT NULL;
 ```
+
+---
+
+[НАЗАД](/SQL_Tutorial/SQL_INSERT_INTO.md)  | [ВПЕРЁД](/SQL_Tutorial/SQL_UPDATE.md)
+

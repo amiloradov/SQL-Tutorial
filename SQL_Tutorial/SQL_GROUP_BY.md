@@ -37,9 +37,9 @@ GROUP BY Country;
 
 Перечислить количество клиентов в каждой стране, отсортированное по убыванию:
 ``` SQL
-SELECT COUNT(CustomerID), Country  
-FROM Customers  
-GROUP BY Country  
+SELECT COUNT(CustomerID), Country 
+FROM Customers 
+GROUP BY Country 
 ORDER BY COUNT(CustomerID) DESC;
 ```
 
@@ -48,7 +48,12 @@ ORDER BY COUNT(CustomerID) DESC;
 Перечислить количество заказов (Order), отправленных каждым грузоотправителем (Shippers):
 ``` SQL
 SELECT Shippers.ShipperName, COUNT(Orders.OrderID) AS NumberOfOrders 
-FROM  Orders  
-LEFT JOIN Shippers ON Orders.ShipperID = Shippers.ShipperID  
+FROM  Orders 
+LEFT JOIN Shippers ON Orders.ShipperID = Shippers.ShipperID 
 GROUP BY ShipperName;
 ```
+
+---
+
+[НАЗАД](/SQL_Tutorial/SQL_UNION.md)  | [ВПЕРЁД](/SQL_Tutorial/SQL_HAVING.md)
+

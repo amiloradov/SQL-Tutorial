@@ -28,5 +28,5 @@ MODIFY Age int NOT NULL;
 
 ---
 
-[НАЗАД](/SQL_DATABASE/SQL_Constraints.md)  | [ВПЕРЁД](#)
+[НАЗАД](/SQL_DATABASE/SQL_Constraints.md)  | [ВПЕРЁД](/SQL_DATABASE/SQL_UNIQUE.md)
 

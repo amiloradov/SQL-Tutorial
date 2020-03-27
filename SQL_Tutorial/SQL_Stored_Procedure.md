@@ -9,7 +9,7 @@ Stored Procedures (Хранимая процедура) - это подгото�
 ## Синтаксис Stored Procedure
 ``` SQL
 CREATE PROCEDURE procedure_name
-AS  
+AS
 sql_statement
 GO;
 ```
@@ -33,7 +33,7 @@ EXEC procedure_name;
 Создать хранимую процедуру с именем «SelectAllCustomers», которая выбирает все записи из таблицы «Customers»:
 
 ``` SQL
-CREATE PROCEDURE SelectAllCustomers  
+CREATE PROCEDURE SelectAllCustomers
 AS
 SELECT * FROM Customers
 GO;
@@ -52,7 +52,7 @@ EXEC SelectAllCustomers;
 ``` SQL
 CREATE PROCEDURE SelectAllCustomers @City nvarchar(30)
 AS
-SELECT * FROM Customers WHERE City = @City  
+SELECT * FROM Customers WHERE City = @City
 GO;
 ```
 Запустим хранимую процедуру выше следующим образом:
@@ -69,9 +69,9 @@ EXEC SelectAllCustomers @City = "London";
 Следующий оператор SQL создает хранимую процедуру, которая выбирает клиентов из определенного города с определенным почтовым индексом из таблицы «Customers»:
 
 ``` SQL
-CREATE PROCEDURE SelectAllCustomers @City nvarchar(30), @PostalCode nvarchar(10)  
-AS  
-SELECT * FROM Customers WHERE City = @City AND PostalCode = @PostalCode  
+CREATE PROCEDURE SelectAllCustomers @City nvarchar(30), @PostalCode nvarchar(10)
+AS
+SELECT * FROM Customers WHERE City = @City AND PostalCode = @PostalCode
 GO;
 ```
 Запустим хранимую процедуру выше следующим образом:
@@ -79,3 +79,8 @@ GO;
 ```SQL
 EXEC SelectAllCustomers @City = "London", @PostalCode = "WA1 1DP";
 ```
+
+---
+
+[НАЗАД](/SQL_Tutorial/SQL_NULL_Function.md)  | [ВПЕРЁД](/SQL_DATABASE/SQL_CREATE_DATABASE.md)
+

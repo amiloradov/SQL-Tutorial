@@ -18,7 +18,7 @@ ADD column_name datatype;
 Добавить столбец «Email» в таблицу «Customers»:
 
 ``` SQL
-ALTER TABLE Customers  
+ALTER TABLE Customers
 ADD Email varchar(255);
 ```
 ---
@@ -37,7 +37,7 @@ DROP COLUMN column_name;
 Удалить столбец «Email» из таблицы «Customers»:
 
 ``` SQL
-ALTER TABLE Customers  
+ALTER TABLE Customers
 DROP COLUMN Email;
 ```
 ---
@@ -79,7 +79,7 @@ MODIFY column_name datatype;
 | 3 | Pettersen | Kari | Storgt 20 | Stavanger |
 
 ``` SQL
-ALTER TABLE Persons  
+ALTER TABLE Persons
 ADD DateOfBirth date;
 ```
 
@@ -95,7 +95,7 @@ ADD DateOfBirth date;
 Изменить тип данных столбца с именем «DateOfBirth» в таблице «Persons».
 
 ``` SQL
-ALTER TABLE Persons  
+ALTER TABLE Persons
 ALTER COLUMN DateOfBirth year;
 ```
 
@@ -105,7 +105,7 @@ ALTER COLUMN DateOfBirth year;
 Удалить столбец с именем «DateOfBirth» в таблице «Persons».
 
 ``` SQL
-ALTER TABLE Persons  
+ALTER TABLE Persons
 DROP COLUMN DateOfBirth;
 ```
 
@@ -119,5 +119,5 @@ DROP COLUMN DateOfBirth;
 
 ---
 
-[НАЗАД](/SQL_DATABASE/SQL_DROP_TABLE.md)  | [ВПЕРЁД](#)
+[НАЗАД](/SQL_DATABASE/SQL_DROP_TABLE.md)  | [ВПЕРЁД](/SQL_DATABASE/SQL_Constraints.md)
 

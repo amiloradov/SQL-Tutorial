@@ -48,3 +48,8 @@ SELECT * FROM Orders WHERE OrderDate BETWEEN #01/07/1996# AND #31/07/1996#;
 ``` SQL
 SELECT * FROM Orders WHERE OrderDate BETWEEN  '1996-07-01'  AND  '1996-07-31';
 ```
+
+---
+
+[НАЗАД](/SQL_Tutorial/SQL_IN.md)  | [ВПЕРЁД](/SQL_Tutorial/SQL_Aliases.md)
+
