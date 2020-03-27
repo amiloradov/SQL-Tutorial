@@ -14,7 +14,7 @@ SQL IFNULL(), ISNULL(), COALESCE(), and NVL() функции, которые в�
 
 В приведенном ниже примере, если любое из значений «UnitsOnOrder» равно NULL, результатом будет NULL:
 ``` SQL
-SELECT ProductName, UnitPrice * (UnitsInStock + UnitsOnOrder)  
+SELECT ProductName, UnitPrice * (UnitsInStock + UnitsOnOrder)
 FROM Products;
 ```
 
@@ -24,13 +24,13 @@ FROM Products;
 
 Функция MySQL [IFNULL ()](https://www.w3schools.com/sql/func_mysql_ifnull.asp) позволяет вам возвращать альтернативное значение, если выражение равно NULL:
 ``` SQL
-SELECT ProductName, UnitPrice * (UnitsInStock + IFNULL(UnitsOnOrder, 0))  
+SELECT ProductName, UnitPrice * (UnitsInStock + IFNULL(UnitsOnOrder, 0))
 FROM Products;
 ```
 **или** мы можем использовать функцию [COALESCE ()](https://www.w3schools.com/sql/func_mysql_coalesce.asp) , например:
 
 ``` SQL
-SELECT ProductName, UnitPrice * (UnitsInStock + COALESCE(UnitsOnOrder, 0))  
+SELECT ProductName, UnitPrice * (UnitsInStock + COALESCE(UnitsOnOrder, 0))
 FROM Products;
 ```
 ---
@@ -39,7 +39,7 @@ FROM Products;
 
 Функция SQL Server [ISNULL ()](https://www.w3schools.com/sql/func_sqlserver_isnull.asp) позволяет вам возвращать альтернативное значение, когда выражение равно NULL:
 ``` SQL
-SELECT ProductName, UnitPrice * (UnitsInStock + ISNULL(UnitsOnOrder, 0))  
+SELECT ProductName, UnitPrice * (UnitsInStock + ISNULL(UnitsOnOrder, 0))
 FROM Products;
 ```
 ---
@@ -48,7 +48,7 @@ FROM Products;
 
 Функция MS Access [IsNull ()](https://www.w3schools.com/sql/func_msaccess_isnull.asp) возвращает TRUE (-1), если выражение является нулевым значением, в противном случае FALSE (0):
 ``` SQL
-SELECT ProductName, UnitPrice * (UnitsInStock + IIF(IsNull(UnitsOnOrder), 0, UnitsOnOrder))  
+SELECT ProductName, UnitPrice * (UnitsInStock + IIF(IsNull(UnitsOnOrder), 0, UnitsOnOrder))
 FROM Products;
 ```
 ---
@@ -57,6 +57,10 @@ FROM Products;
 
 Функция Oracle NVL () достигает того же результата:
 ``` SQL
-SELECT ProductName, UnitPrice * (UnitsInStock + NVL(UnitsOnOrder, 0))  
+SELECT ProductName, UnitPrice * (UnitsInStock + NVL(UnitsOnOrder, 0))
 FROM Products;
 ```
+
+---
+
+[НАЗАД](/SQL_Tutorial/SQL_CASE.md)  | [ВПЕРЁД](/SQL_Tutorial/SQL_Stored_Procedure.md)

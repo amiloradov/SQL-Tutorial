@@ -32,3 +32,8 @@ SELECT * FROM Customers WHERE Country NOT IN ('Belarus', 'Russia', 'Ukraine');
 ``` SQL
 SELECT * FROM Customers WHERE Country IN (SELECT Country FROM Suppliers);
 ```
+
+---
+
+[НАЗАД](/SQL_Tutorial/SQL_Wildcard.md)  | [ВПЕРЁД](/SQL_Tutorial/SQL_BETWEEN.md)
+

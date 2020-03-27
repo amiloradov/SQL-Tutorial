@@ -18,3 +18,9 @@ SELECT CustomerName, City FROM Customers;
 Выбрать все столбцы из таблицы  «Customers»:
 ``` SQL
 SELECT * FROM Customers;
+```
+
+---
+
+[НАЗАД](/SQL_Tutorial/SQL_Comments.md)  | [ВПЕРЁД](/SQL_Tutorial/SQL_SELECT_DISTINCT.md)
+

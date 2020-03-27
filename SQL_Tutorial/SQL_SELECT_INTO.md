@@ -35,30 +35,35 @@ FROM Customers;
 
 IN используется для копирования таблицы в новую таблицу в другой базе данных:
 ``` SQL
-SELECT * INTO CustomersBackup2017 IN 'Backup.mdb'  
+SELECT * INTO CustomersBackup2017 IN 'Backup.mdb'
 FROM Customers;
 ```
 ---
 
 Копировать только несколько столбцов в новую таблицу:
 ``` SQL
-SELECT CustomerName, ContactName INTO CustomersBackup2017  
+SELECT CustomerName, ContactName INTO CustomersBackup2017
 FROM Customers;
 ```
 ---
 
 Копировать только новых клиентов из Германии в новую таблицу:
 ``` SQL
-SELECT * INTO CustomersGermany  
-FROM Customers  
+SELECT * INTO CustomersGermany
+FROM Customers
 WHERE Country = 'Germany';
 ```
 ---
 
 Копировать данные из нескольких таблиц в новую таблицу:
 ``` SQL
-SELECT Customers.CustomerName, Orders.OrderID  
-INTO CustomersOrderBackup2017  
-FROM Customers  
+SELECT Customers.CustomerName, Orders.OrderID
+INTO CustomersOrderBackup2017
+FROM Customers
 LEFT JOIN Orders ON Customers.CustomerID = Orders.CustomerID;
 ```
+
+---
+
+[НАЗАД](/SQL_Tutorial/SQL_EXISTS.md)  | [ВПЕРЁД](/SQL_Tutorial/SQL_INSERT_INTO_SELECT.md)
+

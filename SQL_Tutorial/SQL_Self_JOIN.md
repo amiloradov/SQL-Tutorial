@@ -21,3 +21,8 @@ WHERE A.CustomerID <> B.CustomerID
 AND A.City = B.City
 ORDER  BY A.City;
 ```
+
+---
+
+[НАЗАД](/SQL_Tutorial/SQL_FULL_JOIN.md)  | [ВПЕРЁД](/SQL_Tutorial/SQL_UNION.md)
+

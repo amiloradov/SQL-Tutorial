@@ -1,7 +1,7 @@
 # SQL Wildcards - Подстановочные операторы
 
 - Wildcards используется для замены одного или нескольких символов в строке.
-- Подстановочные операторы используются с [оператором SQL LIKE](/SQL_LIKE.md) .
+- Подстановочные операторы используются с [оператором SQL LIKE](/SQL_Tutorial/SQL_LIKE.md) .
  -Все подстановочные операторы также могут быть использованы в комбинациях!
 
 ### Подстановочные операторы в MS Access
@@ -77,3 +77,8 @@ SELECT * FROM Customers WHERE CustomerName LIKE '[!bsp]%';
 ``` SQL
 SELECT * FROM Customers WHERE CustomerName not LIKE '[bsp]%';
 ```
+
+---
+
+[НАЗАД](/SQL_Tutorial/SQL_LIKE.md)  | [ВПЕРЁД](/SQL_Tutorial/SQL_IN.md)
+

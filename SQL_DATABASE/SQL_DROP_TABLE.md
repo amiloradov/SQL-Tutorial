@@ -31,5 +31,5 @@ TRUNCATE TABLE table_name;
 
 ---
 
-[НАЗАД](/SQL_DATABASE/SQL_CREATE_TABLE.md)  | [ВПЕРЁД](#)
+[НАЗАД](/SQL_DATABASE/SQL_CREATE_TABLE.md)  | [ВПЕРЁД](/SQL_DATABASE/SQL_ALTER_TABLE.md)
 

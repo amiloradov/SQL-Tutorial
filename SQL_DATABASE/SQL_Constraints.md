@@ -32,5 +32,5 @@ column3 datatype constraint,
 
 ---
 
-[НАЗАД](/SQL_DATABASE/SQL_DROP_TABLE.md)  | [ВПЕРЁД](#)
+[НАЗАД](/SQL_DATABASE/SQL_ALTER_TABLE.md)  | [ВПЕРЁД](/SQL_DATABASE/SQL_NOT_NULL.md)
 

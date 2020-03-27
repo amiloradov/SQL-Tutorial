@@ -52,3 +52,8 @@ ___
 ``` SQL
 SELECT * FROM Customers WHERE Country='Belarus'  AND ROWNUM <= 3;
 ```
+
+---
+
+[НАЗАД](/SQL_Tutorial/SQL_DELETE.md)  | [ВПЕРЁД](/SQL_Tutorial/SQL_MIN_MAX.md)
+

@@ -18,5 +18,5 @@ CREATE DATABASE testDB;
 
 ---
 
-[НАЗАД](http://www.google.com)  | [ВПЕРЁД](http://www.google.com)
+[НАЗАД](/SQL_Tutorial/SQL_NULL_Function.md)  | [ВПЕРЁД](/SQL_DATABASE/SQL_DROP_DATABASE.md)
 

@@ -7,14 +7,19 @@
 
 ## Однострочные комментарии
 ``` SQL
---Select all:  
+--Select all:
 SELECT * FROM Customers;
 ```
 
 ## Многострочные комментарии
 ``` SQL
-/*Select all the columns  
-of all the records  
-in the Customers table:*/  
+/*Select all the columns
+of all the records
+in the Customers table:*/
 SELECT * FROM Customers;
 ```
+
+---
+
+  | [ВПЕРЁД](/SQL_Tutorial/SQL_SELECT.md)
+

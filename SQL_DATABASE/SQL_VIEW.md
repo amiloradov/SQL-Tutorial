@@ -67,7 +67,7 @@ WHERE condition;
 ``` SQL
 CREATE OR REPLACE VIEW [Brazil Customers] AS
 SELECT CustomerName, ContactName, City
-FROM Customers  
+FROM Customers
 WHERE Country = "Brazil";
 ```
 
@@ -86,5 +86,5 @@ DROP VIEW [Brazil Customers];
 ```
 ---
 
-[НАЗАД](/SQL_DATABASE/SQL_DATE.md)  | [ВПЕРЁД](#)
+[НАЗАД](/SQL_DATABASE/SQL_DATE.md)  | [ВПЕРЁД](/SQL_DATABASE/SQL_Injection.md)
 

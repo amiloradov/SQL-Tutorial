@@ -30,3 +30,8 @@ SELECT MIN(Price) AS SmallestPrice FROM Products;
 ``` SQL
 SELECT MAX(Price) AS LargestPrice FROM Products;
 ```
+
+---
+
+[НАЗАД](/SQL_Tutorial/SQL_TOP_LIMIT_ROWNUM.md)  | [ВПЕРЁД](/SQL_Tutorial/SQL_COUNT_AVG_SUM.md)
+

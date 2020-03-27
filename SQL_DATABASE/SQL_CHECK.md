@@ -88,5 +88,5 @@ DROP CHECK CHK_PersonAge;
 ```
 ---
 
-[НАЗАД](/SQL_DATABASE/SQL_FOREIGN_KEY.md)  | [ВПЕРЁД](#)
+[НАЗАД](/SQL_DATABASE/SQL_FOREIGN_KEY.md)  | [ВПЕРЁД](/SQL_DATABASE/SQL_DEFAULT.md)
 

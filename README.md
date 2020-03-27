@@ -36,7 +36,7 @@
 | [INSERT INTO SELECT](/SQL_Tutorial/SQL_INSERT_INTO_SELECT.md) | INSERT INTO SELECT копирует данные из одной таблицы и вставляет их в другую таблицу. |
 | [CASE](/SQL_Tutorial/SQL_CASE.md) | Оператор CASE проходит через условия и возвращает значение при выполнении первого условия. |
 | [NULL Function](/SQL_Tutorial/SQL_NULL_Function.md) | SQL IFNULL(), ISNULL(), COALESCE(), and NVL() функции, которые возвращают альтернативное значение. |
-| [Stored Procedure](/SQL_Tutorial/SQL_NULL_Function.md) | Stored Procedures (Хранимая процедура) - это подготовленный код SQL, который вы можете сохранить, поэтому код можно использовать снова и снова. |
+| [Stored Procedure](/SQL_Tutorial/SQL_Stored_Procedure.md) | Stored Procedures (Хранимая процедура) - это подготовленный код SQL, который вы можете сохранить, поэтому код можно использовать снова и снова. |
 
 # База данных
 - создание
@@ -50,7 +50,7 @@
 | [BACKUP DATABASE](/SQL_DATABASE/SQL_BACKUP_DATABASE.md) | BACKUP DATABASE используется в SQL Server для создания полной резервной копии существующей базы данных SQL. |
 | [CREATE TABLE](/SQL_DATABASE/SQL_CREATE_TABLE.md) | Оператор CREATE TABLE используется для создания новой таблицы в базе данных. |
 | [DROP TABLE, TRUNCATE TABLE](/SQL_DATABASE/SQL_DROP_TABLE.md) | Оператор DROP TABLE используется для удаления существующей таблицы в базе данных. Оператор TRUNCATE TABLE используется для удаления данных внутри таблицы, но не самой таблицы. |
-| [ALTER TABLE](/SQL_DATABASE/SQL_DROP_TABLE.md) | ALTER TABLE используется для добавления, удаления или изменения столбцов в существующей таблице, а также используется для добавления и удаления различных ограничений в существующей таблицы. |
+| [ALTER TABLE](/SQL_DATABASE/SQL_ALTER_TABLE.md) | ALTER TABLE используется для добавления, удаления или изменения столбцов в существующей таблице, а также используется для добавления и удаления различных ограничений в существующей таблицы. |
 | [Constraints (Ограничения)](/SQL_DATABASE/SQL_Constraints.md) | Ограничения SQL используются для указания правил для данных в таблице. |
 | [Ограничение NOT NULL](/SQL_DATABASE/SQL_NOT_NULL.md) | Ограничение NOT NULL заставляет столбец НЕ принимать значения NULL. |
 | [Ограничение UNIQUE](/SQL_DATABASE/SQL_UNIQUE.md) | Ограничение UNIQUE гарантирует, что все значения в столбце различны. |

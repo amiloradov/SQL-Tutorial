@@ -74,7 +74,7 @@ ADD CONSTRAINT PK_Person PRIMARY KEY (ID,LastName);
 **MySQL:**
 
 ``` SQL
-ALTER TABLE Persons  
+ALTER TABLE Persons
 DROP PRIMARY KEY;
 ```
 
@@ -86,5 +86,5 @@ DROP CONSTRAINT PK_Person;
 ```
 ---
 
-[НАЗАД](/SQL_DATABASE/SQL_UNIQUE.md)  | [ВПЕРЁД](#)
+[НАЗАД](/SQL_DATABASE/SQL_UNIQUE.md)  | [ВПЕРЁД](/SQL_DATABASE/SQL_FOREIGN_KEY.md)
 

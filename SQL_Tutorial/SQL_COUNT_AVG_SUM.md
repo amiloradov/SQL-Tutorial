@@ -44,3 +44,8 @@ SELECT  AVG(ProductID) FROM Products;
 ``` SQL
 SELECT  SUM(Price) FROM Products;
 ```
+
+---
+
+[НАЗАД](/SQL_Tutorial/SQL_MIN_MAX.md)  | [ВПЕРЁД](/SQL_Tutorial/SQL_LIKE.md)
+

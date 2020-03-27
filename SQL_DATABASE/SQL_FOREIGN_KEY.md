@@ -113,5 +113,5 @@ DROP CONSTRAINT FK_PersonOrder;
 ```
 ---
 
-[НАЗАД](/SQL_DATABASE/SQL_PRIMARY_KEY.md)  | [ВПЕРЁД](#)
+[НАЗАД](/SQL_DATABASE/SQL_PRIMARY_KEY.md)  | [ВПЕРЁД](/SQL_DATABASE/SQL_CHECK.md)
 

@@ -71,5 +71,5 @@ SELECT * FROM Orders WHERE OrderDate='2008-11-11'
 >  Чтобы ваши запросы были простыми и легкими в обслуживании, не допускайте временных составляющих в ваших датах!
 ---
 
-[НАЗАД](/SQL_DATABASE/SQL_AUTO_INCREMENT.md)  | [ВПЕРЁД](#)
+[НАЗАД](/SQL_DATABASE/SQL_AUTO_INCREMENT.md)  | [ВПЕРЁД](/SQL_DATABASE/SQL_VIEW.md)
 

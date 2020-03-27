@@ -17,7 +17,7 @@ SQL injection - это размещение вредоносного кода в
 ### пример
 
 ``` SQL
-txtUserId = getRequestString("UserId");  
+txtUserId = getRequestString("UserId");
 txtSQL = "SELECT * FROM Users WHERE UserId = " + txtUserId;
 ```
 
@@ -62,8 +62,8 @@ SELECT UserId, Name, Password FROM Users WHERE UserId = 105 or 1=1;
 ### Пример
 
 ```SQL
-uName = getRequestString("username");  
-uPass = getRequestString("userpassword");  
+uName = getRequestString("username");
+uPass = getRequestString("userpassword");
   
 sql = 'SELECT * FROM Users WHERE Name ="' + uName + '" AND Pass ="' + uPass + '"'
 ```
@@ -107,7 +107,7 @@ SELECT * FROM Users; DROP TABLE Suppliers
 Посмотрите на следующий пример:
 
 ```SQL
-txtUserId = getRequestString("UserId");  
+txtUserId = getRequestString("UserId");
 txtSQL = "SELECT * FROM Users WHERE UserId = " + txtUserId;
 ```
 
@@ -132,8 +132,8 @@ SELECT  *  FROM  Users  WHERE  UserId =  105;  DROP  TABLE  Suppliers;
 ### Пример использования ASP.NET Razor
 
 ```SQL
-txtUserId = getRequestString("UserId");  
-txtSQL = "SELECT * FROM Users WHERE UserId = @0";  
+txtUserId = getRequestString("UserId");
+txtSQL = "SELECT * FROM Users WHERE UserId = @0";
 db.Execute(txtSQL,txtUserId);
 ```
 
@@ -144,10 +144,10 @@ db.Execute(txtSQL,txtUserId);
 ### Другой пример
 
 ```SQL
-txtNam = getRequestString("CustomerName");  
-txtAdd = getRequestString("Address");  
-txtCit = getRequestString("City");  
-txtSQL = "INSERT INTO Customers (CustomerName,Address,City) Values(@0,@1,@2)";  
+txtNam = getRequestString("CustomerName");
+txtAdd = getRequestString("Address");
+txtCit = getRequestString("City");
+txtSQL = "INSERT INTO Customers (CustomerName,Address,City) Values(@0,@1,@2)";
 db.Execute(txtSQL,txtNam,txtAdd,txtCit);
 ```
 
@@ -158,38 +158,38 @@ db.Execute(txtSQL,txtNam,txtAdd,txtCit);
 SELECT в ASP.NET:
 
 ```SQL
-txtUserId = getRequestString("UserId");  
-sql = "SELECT * FROM Customers WHERE CustomerId = @0";  
-command = new SqlCommand(sql);  
-command.Parameters.AddWithValue("@0",txtUserID);  
+txtUserId = getRequestString("UserId");
+sql = "SELECT * FROM Customers WHERE CustomerId = @0";
+command = new SqlCommand(sql);
+command.Parameters.AddWithValue("@0",txtUserID);
 command.ExecuteReader();
 ```
 
 INSERT INTO в ASP.NET:
 
 ```SQL
-txtNam = getRequestString("CustomerName");  
-txtAdd = getRequestString("Address");  
-txtCit = getRequestString("City");  
-txtSQL = "INSERT INTO Customers (CustomerName,Address,City) Values(@0,@1,@2)";  
-command = new SqlCommand(txtSQL);  
-command.Parameters.AddWithValue("@0",txtNam);  
-command.Parameters.AddWithValue("@1",txtAdd);  
-command.Parameters.AddWithValue("@2",txtCit);  
+txtNam = getRequestString("CustomerName");
+txtAdd = getRequestString("Address");
+txtCit = getRequestString("City");
+txtSQL = "INSERT INTO Customers (CustomerName,Address,City) Values(@0,@1,@2)";
+command = new SqlCommand(txtSQL);
+command.Parameters.AddWithValue("@0",txtNam);
+command.Parameters.AddWithValue("@1",txtAdd);
+command.Parameters.AddWithValue("@2",txtCit);
 command.ExecuteNonQuery();
 ```
 
 INSERT INTO в PHP:
 
 ```PHP
-$stmt = $dbh->prepare("INSERT INTO Customers (CustomerName,Address,City)  
-VALUES (:nam, :add, :cit)");  
-$stmt->bindParam(':nam', $txtNam);  
-$stmt->bindParam(':add', $txtAdd);  
-$stmt->bindParam(':cit', $txtCit);  
+$stmt = $dbh->prepare("INSERT INTO Customers (CustomerName,Address,City)
+VALUES (:nam, :add, :cit)");
+$stmt->bindParam(':nam', $txtNam);
+$stmt->bindParam(':add', $txtAdd);
+$stmt->bindParam(':cit', $txtCit);
 $stmt->execute();
 ```
 ---
 
-[НАЗАД](/SQL_DATABASE/SQL_VIEW.md)  | [ВПЕРЁД](#)
+[НАЗАД](/SQL_DATABASE/SQL_VIEW.md)  | [ВПЕРЁД](/SQL_DATABASE/SQL_Hosting.md)
 

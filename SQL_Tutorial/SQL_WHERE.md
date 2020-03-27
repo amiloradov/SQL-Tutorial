@@ -18,3 +18,8 @@ SELECT * FROM Customers WHERE Country='Belarus';
 ``` SQL
 SELECT * FROM Customers WHERE CustomerID=1;
 ```
+
+---
+
+[НАЗАД](/SQL_Tutorial/SQL_SELECT_DISTINCT.md)  | [ВПЕРЁД](/SQL_Tutorial/SQL_AND_OR_NOT.md)
+

@@ -42,7 +42,7 @@ CONSTRAINT UC_Person UNIQUE (ID,LastName)
 **MySQL / SQL Server / Oracle / MS Access:**
 
 ``` SQL
-ALTER TABLE Persons  
+ALTER TABLE Persons
 ADD UNIQUE (ID);
 ```
 
@@ -74,5 +74,5 @@ DROP CONSTRAINT UC_Person;
 ```
 ---
 
-[НАЗАД](/SQL_DATABASE/SQL_NOT_NULL.md)  | [ВПЕРЁД](#)
+[НАЗАД](/SQL_DATABASE/SQL_NOT_NULL.md)  | [ВПЕРЁД](/SQL_DATABASE/SQL_PRIMARY_KEY.md)
 

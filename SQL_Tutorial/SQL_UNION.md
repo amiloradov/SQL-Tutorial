@@ -80,7 +80,7 @@ FROM Suppliers;
 SELECT City, Country FROM Customers
 WHERE Country='Germany'
 UNION
-SELECT City, Country FROM Suppliers  
+SELECT City, Country FROM Suppliers 
 WHERE Country='Germany'
 ORDER  BY City;
 ```
@@ -91,7 +91,12 @@ ORDER  BY City;
 SELECT City, Country FROM Customers
 WHERE Country='Germany'
 UNION ALL
-SELECT City, Country FROM Suppliers  
+SELECT City, Country FROM Suppliers 
 WHERE Country='Germany'
 ORDER  BY City;
 ```
+
+---
+
+[НАЗАД](/SQL_Tutorial/SQL_Self_JOIN.md)  | [ВПЕРЁД](/SQL_Tutorial/SQL_GROUP_BY.md)
+

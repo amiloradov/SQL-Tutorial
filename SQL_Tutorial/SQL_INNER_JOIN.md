@@ -51,3 +51,8 @@ FROM  ((Orders
 INNER  JOIN Customers ON Orders.CustomerID = Customers.CustomerID)
 INNER  JOIN Shippers ON Orders.ShipperID = Shippers.ShipperID);
 ```
+
+---
+
+[НАЗАД](/SQL_Tutorial/SQL_Join.md)  | [ВПЕРЁД](/SQL_Tutorial/SQL_LEFT_JOIN.md)
+

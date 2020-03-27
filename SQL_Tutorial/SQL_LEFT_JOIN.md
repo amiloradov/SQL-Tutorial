@@ -46,3 +46,8 @@ ORDER  BY Customers.CustomerName;
 ```
 
 > LEFT JOIN возвращает все записи из левой таблицы (Клиенты), даже если в правой таблице нет совпадений (Заказы).
+
+---
+
+[НАЗАД](/SQL_Tutorial/SQL_INNER_JOIN.md)  | [ВПЕРЁД](/SQL_Tutorial/SQL_RIGHT_JOIN.md)
+

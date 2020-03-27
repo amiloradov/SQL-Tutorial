@@ -76,3 +76,8 @@ SELECT Orders.OrderID, Orders.OrderDate, Customers.CustomerName
 FROM Customers, Orders
 WHERE Customers.CustomerName="Around the Horn"  AND Customers.CustomerID=Orders.CustomerID;
 ```
+
+---
+
+[НАЗАД](/SQL_Tutorial/SQL_BETWEEN.md)  | [ВПЕРЁД](/SQL_Tutorial/SQL_Join.md)
+

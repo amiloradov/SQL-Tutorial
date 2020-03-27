@@ -14,7 +14,7 @@ TO DISK = 'filepath';
 Создать полную резервную копию существующей базы данных «testDB» на диске D:
 
 ``` SQL
-BACKUP DATABASE testDB  
+BACKUP DATABASE testDB
 TO DISK = 'D:\backups\testDB.bak';
 ```
 
@@ -28,7 +28,7 @@ TO DISK = 'D:\backups\testDB.bak';
 
 ``` SQL
 BACKUP DATABASE databasename
-TO DISK = 'filepath'  
+TO DISK = 'filepath'
 WITH DIFFERENTIAL;
 ```
 
@@ -46,5 +46,5 @@ WITH DIFFERENTIAL;
 
 ---
 
-[НАЗАД](/SQL_DATABASE/SQL_DROP_DATABASE.md)  | [ВПЕРЁД](#)
+[НАЗАД](/SQL_DATABASE/SQL_DROP_DATABASE.md)  | [ВПЕРЁД](/SQL_DATABASE/SQL_CREATE_TABLE.md)
 
