@@ -36,7 +36,7 @@
 | [INSERT INTO SELECT](/SQL_Tutorial/SQL_INSERT_INTO_SELECT.md) | INSERT INTO SELECT копирует данные из одной таблицы и вставляет их в другую таблицу. |
 | [CASE](/SQL_Tutorial/SQL_CASE.md) | Оператор CASE проходит через условия и возвращает значение при выполнении первого условия. |
 | [NULL Function](/SQL_Tutorial/SQL_NULL_Function.md) | SQL IFNULL(), ISNULL(), COALESCE(), and NVL() функции, которые возвращают альтернативное значение. |
-| [Stored Procedure](/SQL_Tutorial/SQL_NULL_Function.md) | Stored Procedures (Хранимая процедура) - это подготовленный код SQL, который вы можете сохранить, поэтому код можно использовать снова и снова. |
+| [Stored Procedure](/SQL_Tutorial/SQL_Stored_Procedure.md) | Stored Procedures (Хранимая процедура) - это подготовленный код SQL, который вы можете сохранить, поэтому код можно использовать снова и снова. |
 
 # База данных
 - создание

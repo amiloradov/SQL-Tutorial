@@ -63,4 +63,4 @@ FROM Products;
 
 ---
 
-[НАЗАД](/SQL_Tutorial/SQL_CASE.md)  | [ВПЕРЁД](/SQL_Tutorial/SQL_NULL_Function.md)
+[НАЗАД](/SQL_Tutorial/SQL_CASE.md)  | [ВПЕРЁД](/SQL_Tutorial/SQL_Stored_Procedure.md)
